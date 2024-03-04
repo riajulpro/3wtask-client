@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPath = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://server-3w.vercel.app",
   withCredentials: true,
 });
 
